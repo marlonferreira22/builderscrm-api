@@ -26,8 +26,11 @@ Requisitos para executar o projeto:
 Caso queria ler a documentação dos endpoints, acesse o endereço http://localhost:8080/swagger-ui.html#/cliente-controller
 
 Para console do banco de dados, acesse o endereço http://localhost:8082/ com os dados abaixo:
+
 JDBC URL: jdbc:h2:crmApi_db
+
 User Name: sa
+
 Password: 1234
 
 Este projeto também está hospedado em um provedor cloud que é possível executa-lo através do endereço http://builders-crm.herokuapp.com/clientes 
