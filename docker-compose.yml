@@ -1,0 +1,15 @@
+version: '3'
+services:
+  builders_crm:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: builders/crm
+    ports:
+      - '8080:8080'
+    environment:
+      - PROFILE=prod
+      - CRM_DATABASE_URL=jdbc:h2:mem:crmApi_db
+      - CRM_DATABASE_USERNAME=sa
+      - CRM_DATABASE_PASSWORD=
+      - PORT=8080
