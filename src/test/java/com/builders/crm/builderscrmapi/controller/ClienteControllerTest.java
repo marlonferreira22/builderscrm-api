@@ -1,9 +1,6 @@
 package com.builders.crm.builderscrmapi.controller;
 
-import static org.junit.Assert.fail;
-
 import java.net.URI;
-import java.net.URISyntaxException;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
